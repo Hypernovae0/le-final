@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ComparedImage
+comment1.params=i1\ i2
+comment1.target=ComparedImage(BaseImage,\ BaseImage)
+comment1.text=constructor\ will\ compare\ the\ two\ images\ on\ ComparedImage\ creation\ and\ save\ the\ comparedImage\ as\ a\r\nmember\ variable,\ while\ storing\ percent\ match\ and\ pixels\ as\ instance\ variables
+comment2.params=redDiff\ greenDiff\ blueDiff
+comment2.target=int\ calcDiff(int,\ int,\ int)
+comment2.text=\ Method\ to\ calculate\ displayed\ color\ based\ on\ color\ differences\r\n\ My\ algorithm\ considers\ each\ color\ difference\ independently.\ The\ difference\ between\ red\ and\ black\ looks\ almost\ as\ strong\ as\ white\ and\ black,\r\n\ but\ the\ sum\ of\ white\ and\ black's\ RGB\ differences\ is\ much\ greater.\ My\ algorithm\ thus\ must\ be\ unbiased\ between\ colors\ that\ have\ fewer\ but\ stronger\r\n\ color\ differences.\ It\ takes\ a\ weighted\ total\ of\ each\ color\ difference\:\ 80%\ of\ the\ largest\ difference\ and\ 20%\ of\ the\ next.\ Colors\ can\ be\ 100%\ "different"\r\n\ if\ their\ two\ biggest\ color\ differences\ are\ 100%.\r\n\ This\ way\ contrasting\ pure\ red\ to\ white\ will\ be\ only\ slightly\ starker\ than\ pure\ red\ to\ black.\r\n
+comment3.params=
+comment3.target=java.awt.image.BufferedImage\ getImgData()
+comment4.params=
+comment4.target=double\ getMatch()
+comment5.params=
+comment5.target=int\ getTotalPixels()
+comment6.params=
+comment6.target=int\ getMatchedPixels()
+numComments=7

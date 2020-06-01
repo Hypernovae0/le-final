@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BaseImage
+comment1.params=img
+comment1.target=BaseImage(java.awt.image.BufferedImage)
+comment2.params=x\ y
+comment2.target=java.awt.Color\ getPixel(int,\ int)
+comment3.params=
+comment3.target=java.awt.image.BufferedImage\ getImgData()
+comment4.params=data
+comment4.target=void\ setImgData(java.awt.image.BufferedImage)
+comment5.params=
+comment5.target=int\ getWidth()
+comment6.params=
+comment6.target=int\ getHeight()
+numComments=7
